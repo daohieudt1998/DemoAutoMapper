@@ -9,7 +9,7 @@ namespace Service.Interface
 {
     public interface IStudentClass
     {
-        IEnumerable<ClassStudent> GetAllStudent();
+        IEnumerable<ClassStudent> GetAllClass();
         Task<ClassStudent> GetByIdAsync(int id);
         Task<ClassStudent> CreateAsync(ClassStudent student);
         Task<ClassStudent> UpdateAsync(ClassStudent student);
